@@ -1,0 +1,10 @@
+[
+  {
+    "id": "victor",
+    "name": "维克多",
+    "description": "根据金色、紫色与红色物资线索推测盲盒价值",
+    "input_profile": "victor_high_quality_mix",
+    "enabled": true
+  }
+]
+
