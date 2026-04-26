@@ -1,10 +1,107 @@
 [
   {
     "id": "victor",
-    "name": "维克多",
-    "description": "根据金色、紫色与红色物资线索推测盲盒价值",
-    "input_profile": "victor_high_quality_mix",
-    "enabled": true
+    "name": "维克托",
+    "description": "直接分析紫 / 橙 / 红三色，不需要白绿蓝输入。",
+    "mode": "high_value_only",
+    "input_groups": [
+      {
+        "key": "purple",
+        "label": "紫色",
+        "color_hex": "#8E5BFF",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      },
+      {
+        "key": "gold",
+        "label": "橙色",
+        "color_hex": "#FF9F43",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      },
+      {
+        "key": "red",
+        "label": "红色",
+        "color_hex": "#FF4D6D",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      }
+    ],
+    "enable_combination_solver": true
+  },
+  {
+    "id": "ahmed",
+    "name": "艾哈迈德",
+    "description": "白+绿 / 蓝 / 紫 / 橙 / 红，可输入均格、总件数、总格数、均价、总价。",
+    "mode": "full_color_analysis",
+    "input_groups": [
+      {
+        "key": "white_green",
+        "label": "白+绿",
+        "color_hex": "#7ED957",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      },
+      {
+        "key": "blue",
+        "label": "蓝色",
+        "color_hex": "#4D96FF",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      },
+      {
+        "key": "purple",
+        "label": "紫色",
+        "color_hex": "#9B5DE5",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      },
+      {
+        "key": "gold",
+        "label": "橙色",
+        "color_hex": "#F9A826",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      },
+      {
+        "key": "red",
+        "label": "红色",
+        "color_hex": "#FF4D6D",
+        "fields": ["avg_grid", "total_count", "total_grid", "avg_price", "total_price"]
+      }
+    ],
+    "enable_combination_solver": true
+  },
+  {
+    "id": "raven",
+    "name": "拉文",
+    "description": "纯估价器模式，直接输入各颜色件数与可选格数/价格信息，不再计算颜色组合。",
+    "mode": "direct_estimate",
+    "input_groups": [
+      {
+        "key": "white_green",
+        "label": "白+绿",
+        "color_hex": "#7ED957",
+        "fields": ["total_count", "avg_price", "total_price"]
+      },
+      {
+        "key": "blue",
+        "label": "蓝色",
+        "color_hex": "#4D96FF",
+        "fields": ["total_count", "avg_price", "total_price"]
+      },
+      {
+        "key": "purple",
+        "label": "紫色",
+        "color_hex": "#9B5DE5",
+        "fields": ["total_count", "avg_price", "total_price"]
+      },
+      {
+        "key": "gold",
+        "label": "橙色",
+        "color_hex": "#F9A826",
+        "fields": ["total_count", "avg_price", "total_price"]
+      },
+      {
+        "key": "red",
+        "label": "红色",
+        "color_hex": "#FF4D6D",
+        "fields": ["total_count", "avg_price", "total_price"]
+      }
+    ],
+    "enable_combination_solver": false
   }
 ]
-
