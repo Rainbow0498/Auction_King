@@ -1,0 +1,3 @@
+E:/dev/C++/Auction_King/build-mingw/CMakeFiles/CMakeScratch/TryCompile-gth1ts/CMakeFiles/cmTC_7f734.dir
+E:/dev/C++/Auction_King/build-mingw/CMakeFiles/CMakeScratch/TryCompile-gth1ts/CMakeFiles/edit_cache.dir
+E:/dev/C++/Auction_King/build-mingw/CMakeFiles/CMakeScratch/TryCompile-gth1ts/CMakeFiles/rebuild_cache.dir

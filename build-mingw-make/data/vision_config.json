@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "capture": {
+    "region": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  },
+  "quality_hsv_ranges": {
+    "white": [],
+    "green": [],
+    "blue": [],
+    "purple": [],
+    "gold": [],
+    "red": []
+  },
+  "grid": {
+    "cell_width": 0,
+    "cell_height": 0
+  }
+}
+
